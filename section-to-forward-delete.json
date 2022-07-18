@@ -1,0 +1,21 @@
+{
+  "title": "Stephen Ford",
+  "rules": [
+    {
+      "description": "Map Section to Forward Delete",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash"
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
